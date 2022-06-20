@@ -1,5 +1,5 @@
 :root {
-    --main-purple: #9615db;
+    --main-purple: #b73deb;
     --light-grey: #c1c2c2;
     --medium-grey: #444648;
     --dark-grey: #102021;
@@ -12,7 +12,8 @@ body {
 }
 
 .navBar {
-    width: '100%';
+    width: 100%;
+    height: 10vh;
     background-color: var(--dark-grey);
     margin: 0;
     display: flex;
@@ -38,4 +39,24 @@ body {
     color: var(--light-grey);
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 19px;
+}
+
+.periBanner {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: var(--dark-grey);
+    border: 2px solid var(--main-purple);
+    width: 95%;
+    height: 90%;
+}
+.bannerImage {
+    height: 95%;
+    width: 95%;
+    margin: 5%;
 }
