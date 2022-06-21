@@ -4,6 +4,7 @@ import './App.css';
 // Components
 import NavBarButton from './components/NavBarButton';
 import GreetingBanner from './components/GreetingBanner';
+import GreetingMessage from './components/GreetingMessage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <NavBarButton title='Contact' />
       </div>
       <GreetingBanner />
+      <GreetingMessage />
     </div >
   );
 }
