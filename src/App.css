@@ -51,7 +51,7 @@ body {
 }
 .banner {
     background-color: var(--dark-grey);
-    border: 2px solid var(--main-purple);
+    box-shadow: 0px 0px 3px 3px var(--main-purple);
     width: 95%;
     height: 90%;
 }

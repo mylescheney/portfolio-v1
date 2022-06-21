@@ -3,6 +3,7 @@ import './App.css';
 
 // Components
 import NavBarButton from './components/NavBarButton';
+import GreetingBanner from './components/GreetingBanner';
 
 function App() {
   return (
@@ -13,13 +14,7 @@ function App() {
         <NavBarButton title='Projects' />
         <NavBarButton title='Contact' />
       </div>
-      <div className='periBanner'>
-        <div className='banner'>
-          <div className='bannerImage'>
-            <p style={{ color: '#fff' }}>Banner image goes here</p>
-          </div>
-        </div>
-      </div>
+      <GreetingBanner />
     </div >
   );
 }
