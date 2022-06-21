@@ -1,4 +1,4 @@
-export const names = [
+const names = [
     'Ben',
     'Peter',
     'Clark',
@@ -59,3 +59,10 @@ export const names = [
     'Lily',
     'Eileen'
 ]
+
+const getRandomName = () => {
+    const rNum = Math.floor(Math.random() * 59);
+    return names[rNum];
+}
+
+export default getRandomName;

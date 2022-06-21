@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
-import { names } from '../resources/names';
+import typeEffect from '../resources/typeEffect';
 
 const GreetingMessage = () => {
-    const rNum = Math.floor(Math.random() * 59);
-    const name = names[rNum];
+
+    const [name, setName] = useState('');
+
+    useEffect(() => {
+        typeEffect(setName);
+    }, [])
     
     return (
-        <div className='greetingMessage'>
-            <p className='mainGreeting'>Greetings, {name}</p>
-            <p className='greetingDisclaimer'>That was a guess, but if your name is {name} that was pretty cool, right?</p>
+        <div className='greetingMessage fadeIn'>
+            <p className='mainGreeting' id='name'>Greetings, {name}</p>
+            <p className='greetingDisclaimer fadesIn'>That was a guess, but if your name is {name} that was pretty cool, right?</p>
         </div>
     )
 }
