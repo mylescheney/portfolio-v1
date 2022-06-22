@@ -10,13 +10,21 @@ function App() {
   return (
     <div>
       <div className='navBar'>
-        <NavBarButton title='Greetings' />
-        <NavBarButton title='About Me' />
-        <NavBarButton title='Projects' />
-        <NavBarButton title='Contact' />
+        <NavBarButton title='Greetings' section='' />
+        <NavBarButton title='About Me' section='aboutSection' />
+        <NavBarButton title='Projects' section='aboutSection' />
+        <NavBarButton title='Contact' section='aboutSection' />
       </div>
       <GreetingBanner />
       <GreetingMessage />
+      <div id='aboutSection'>
+        <div className='sectionHeader'>
+          <h2 className='sectionHeaderText'>About Me</h2>
+        </div>
+        <div className='sectionContent'>
+
+        </div>
+      </div>
     </div >
   );
 }

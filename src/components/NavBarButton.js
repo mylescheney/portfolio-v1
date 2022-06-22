@@ -1,11 +1,13 @@
 import React from "react";
 import '../App.css';
 
-const NavBarButton = ({ title }) => {
+const NavBarButton = ({ title, section }) => {
     return (
-        <div className='navBarButton'>
-            <p className='navBarText'>{title}</p>
-        </div>
+        <a href={`#${section}`}>
+            <div className='navBarButton'>
+                <p className='navBarText'>{title}</p>
+            </div>
+        </a>
     );
 }
 
