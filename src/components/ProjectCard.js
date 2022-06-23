@@ -10,8 +10,8 @@ const ProjectCard = ({title}) => {
             <div className='periImage'>
                 <p>Picture goes here</p>
             </div>
-            <p>{title}</p>
-            <p>{description}</p>
+            <p className='cardTitle'>{title}</p>
+            <p className='cardDescription'>{description}</p>
         </div>
     )
 }

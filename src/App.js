@@ -32,7 +32,9 @@ function App() {
           <h2 className='sectionHeaderText'>Journey Projects</h2>
         </div>
         <div className='sectionContent'>
-          <ProjectCard title='Deadly Austrailia' />
+          <div className='projectRow'>
+            <ProjectCard title='Deadly Austrailia' />
+          </div>
         </div>
       </div>
     </div >

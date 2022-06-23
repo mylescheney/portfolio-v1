@@ -140,3 +140,26 @@ body {
 .sectionContent {
     height: 80vh;
 }
+
+.projectRow {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5%;
+}
+.projectCard {
+    background-color: var(--dark-grey);
+    box-shadow: 0px 0px 1px 1px var(--main-purple);
+    width: 20vw;
+}
+.cardTitle {
+    margin: 0;
+    color: var(--light-grey);
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.cardDescription {
+    margin: 0;
+    color: var(--light-grey);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
