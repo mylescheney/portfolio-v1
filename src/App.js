@@ -33,6 +33,7 @@ function App() {
         </div>
         <div className='sectionContent'>
           <div className='projectRow'>
+            <ProjectCard title='Hamilton Tribute' />
             <ProjectCard title='Deadly Austrailia' />
           </div>
         </div>
